@@ -1,0 +1,24 @@
+{
+  "name": "webpack-handbook",
+  "version": "1.0.0",
+  "description": "Webpack Handbook",
+  "main": "index.js",
+  "scripts": {
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshua1988/webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshua1988/webpack/issues"
+  },
+  "homepage": "https://github.com/joshua1988/webpack#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.3"
+  }
+}
