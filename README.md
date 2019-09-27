@@ -1,4 +1,8 @@
-# webpack-guide
+<p align="center"><a href="https://joshua1988.github.io/webpack-guide/" target="_blank" rel="noopener noreferrer"><img width="100" src="./image/intro.png" alt="Webpack Handbook Intro"></a></p>
+
+<p align="center"><strong>The easiest way to learn Webpack</strong></p>
+
+# Webpack Guide
 
 This repository is for the Webpack Handbook in Korean.
 
