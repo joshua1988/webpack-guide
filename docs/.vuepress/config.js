@@ -85,6 +85,13 @@ module.exports = {
           '/advanced/webpack-merge',
         ],
       },
+      {
+        title: 'FAQ',
+        collapsable: false,
+        children: [
+          '/faq',
+        ],
+      }
     ],
     nav: [
       {
@@ -94,7 +101,7 @@ module.exports = {
       {
         text: 'Online Courses',
         link:
-          'https://www.inflearn.com/?post_type=course&s=%EC%9E%A5%EA%B8%B0%ED%9A%A8',
+          'https://www.inflearn.com/instructors/54224/courses',
       },
       {
         text: 'More Articles',
@@ -116,7 +123,9 @@ module.exports = {
         message: '새 컨텐츠가 등록되었습니다. 새로고침 버튼을 눌러주세요 😄',
         buttonText: '새로고침',
       },
+    },
+    '@vuepress/google-analytics': {
+      'ga': 'UA-148087262-2'
     }
   },
-  ga: 'UA-148087262-1',
 };
