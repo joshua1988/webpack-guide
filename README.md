@@ -10,7 +10,7 @@ This repository is for the Webpack Handbook in Korean.
 
 Feel free to ask any questions related with the topics on the web site. Please open an issue following these guidelines.
 
-더 알고 싶은 내용이나 현재 사이트에서 수정되어야 하는 부분이 있다면 이슈로 편하게 제기해주세요. 이슈 예시는 아래 형식을 따라주시면 됩니다.
+더 알고 싶은 내용이나 현재 사이트에서 수정되어야 하는 부분이 있다면 [깃헙 이슈](https://github.com/joshua1988/webpack-guide/issues)로 편하게 제기해주세요. 이슈 예시는 아래 형식을 따라주시면 됩니다 😄
 
 ```
 # issue example - adding contents
