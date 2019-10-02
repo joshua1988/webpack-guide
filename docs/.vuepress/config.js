@@ -104,6 +104,11 @@ module.exports = {
           'https://www.inflearn.com/instructors/54224/courses',
       },
       {
+        text: 'Offline Courses',
+        link:
+          'https://www.fastcampus.co.kr/dev_camp_vue/',
+      },
+      {
         text: 'More Articles',
         link: 'https://joshua1988.github.io/',
       },
