@@ -1,5 +1,5 @@
 ---
-title: What is Webpack?
+title: 웹팩이란?
 ---
 
 ## 웹팩이란?

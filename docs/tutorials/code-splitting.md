@@ -88,7 +88,7 @@ module.exports = {
 
 7. CSS 파일을 별도로 분리하기 위해 `MiniCssExtractPlugin` 플러그인 설정 추가
 
-```js
+```js ${3,16-19,24-26}
 // webpack.config.js
 var path = require('path');
 var MiniCssExtractPlugin = require("mini-css-extract-plugin");

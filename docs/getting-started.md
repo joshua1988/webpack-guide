@@ -42,7 +42,7 @@ npm i lodash
 </html>
 ```
 
-4. 폴더에 `index.js` 파일을 생성하고 아래 내용 추가
+4. 프로젝트 루트 레벨에 `src` 폴더를 생성하고 그 안에 `index.js` 파일 생성.
 
 ```js
 function component() {
@@ -61,7 +61,7 @@ document.body.appendChild(component());
 
 5. 웹팩 빌드 및 빌드 결과물로 실행하기 위해 각 파일에 아래 내용 반영
 
-```js
+```js {2}
 // index.js
 import _ from 'lodash';
 

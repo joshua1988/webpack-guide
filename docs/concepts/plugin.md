@@ -35,3 +35,9 @@ module.exports = {
 - [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/) : 웹팩으로 빌드한 결과물로 HTML 파일을 생성해주는 플러그인
 - [ProgressPlugin](https://webpack.js.org/plugins/progress-plugin/#root) : 웹팩의 빌드 진행율을 표시해주는 플러그인
 
+## 자주 사용하는 플러그인
+
+- [split-chunks-plugin](https://webpack.js.org/plugins/split-chunks-plugin/)
+- [clean-webpack-plugin](https://www.npmjs.com/package/clean-webpack-plugin)
+- [image-webpack-loader](https://github.com/tcoopman/image-webpack-loader)
+- [webpack-bundle-analyzer-plugin](https://github.com/webpack-contrib/webpack-bundle-analyzer)

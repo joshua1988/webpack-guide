@@ -4,7 +4,7 @@
 
 # Webpack Guide
 
-This repository is for the Webpack Handbook in Korean.
+This repository is for the [Webpack Handbook](https://joshua1988.github.io/webpack-guide/) in Korean.
 
 ## Contribution to this Project
 
