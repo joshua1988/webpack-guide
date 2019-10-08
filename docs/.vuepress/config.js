@@ -7,10 +7,19 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#8dd6f9' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    [
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+    ],
     ['link', { rel: 'apple-touch-icon', href: '/images/icons/152.png' }],
-    ['link', { rel: 'mask-icon', href: '/images/icons/logo.svg', color: '#8dd6f9' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/images/icons/144.png' }],
+    [
+      'link',
+      { rel: 'mask-icon', href: '/images/icons/logo.svg', color: '#8dd6f9' },
+    ],
+    [
+      'meta',
+      { name: 'msapplication-TileImage', content: '/images/icons/144.png' },
+    ],
     ['meta', { name: 'msapplication-TileColor', content: '#8dd6f9' }],
   ],
   themeConfig: {
@@ -86,30 +95,34 @@ module.exports = {
         ],
       },
       {
-        title: 'FAQ',
+        title: 'Meta',
         collapsable: false,
-        children: [
-          '/faq',
-        ],
-      }
+        children: ['/faq', '/contribution'],
+      },
     ],
     nav: [
       {
-        text: 'Guide',
+        text: '📖 Guide',
         link: '/guide',
       },
       {
-        text: 'Online Courses',
-        link:
-          'https://www.inflearn.com/instructors/54224/courses',
+        text: '📹 Online Courses',
+        link: 'https://www.inflearn.com/instructors/54224/courses',
       },
       {
-        text: 'Offline Courses',
-        link:
-          'https://www.fastcampus.co.kr/dev_camp_vue/',
+        text: '📆 Offline Courses',
+        link: 'https://www.fastcampus.co.kr/dev_camp_vue/',
       },
       {
-        text: 'More Articles',
+        text: '💵 Support Project',
+        link: 'https://www.patreon.com/captainpangyo',
+      },
+      {
+        text: '💻 Github',
+        link: 'https://github.com/joshua1988/webpack-guide',
+      },
+      {
+        text: '📝 More Articles',
         link: 'https://joshua1988.github.io/',
       },
     ],
@@ -130,7 +143,7 @@ module.exports = {
       },
     },
     '@vuepress/google-analytics': {
-      'ga': 'UA-148087262-2'
-    }
+      ga: 'UA-148087262-2',
+    },
   },
 };
