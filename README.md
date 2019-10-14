@@ -4,7 +4,8 @@
 
 # Webpack Guide
 
-This repository is for the [Webpack Handbook](https://joshua1988.github.io/webpack-guide/) in Korean.
+This repository is for the [Webpack Handbook](https://joshua1988.github.io/
+webpack-guide/) in Korean.
 
 ## Contribution to this Project
 
@@ -23,6 +24,11 @@ contents : 어떻게 하면 watch 옵션을 설정할 수 있나요?
 title : [수정 요청] 웹팩 플러그인 설명이 잘못된 것 같습니다.
 contents : 플러그인 속성 이름이 `plugin`이 아니라 `plugins`가 되어야 할 것 같습니다.
 ```
+
+## Backers
+
+<a href="https://www.patreon.com/user/creators?u=25436476" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25436476/68ca0dca23814a8ba6cbe04e39a64cfd/1.jpeg?token-time=2145916800&token-hash=1R6f94w-Lr_ejZKplxnPEn9mLg3PwGJc93EhKi6thO4%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
+<a href="https://www.patreon.com/user/creators?u=25480524" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25480524/c2d5cdcac1a24903b1fdc1288788bc9b/1.jpeg?token-time=2145916800&token-hash=YOAVB6zAbLhaLbsVyEANiQdE2bHu8ErdrDMtmuskUys%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
 
 ## License & Copyright
 
