@@ -27,7 +27,9 @@ contents : 플러그인 속성 이름이 `plugin`이 아니라 `plugins`가 되�
 
 ## Backers
 
-<a href="https://www.patreon.com/user/creators?u=25436476" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25436476/68ca0dca23814a8ba6cbe04e39a64cfd/1.jpeg?token-time=2145916800&token-hash=1R6f94w-Lr_ejZKplxnPEn9mLg3PwGJc93EhKi6thO4%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
+Huge thanks for the backers who support this project. If you are interested in being a part of this list, please check out this [link](https://www.patreon.com/captainpangyo).
+
+<a href="https://www.patreon.com/user/creators?u=25436476" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25436476/68ca0dca23814a8ba6cbe04e39a64cfd/1.jpeg?token-time=2145916800&token-hash=1R6f94w-Lr_ejZKplxnPEn9mLg3PwGJc93EhKi6thO4%3D" style="width: 64px; height: 64px; border-radius: 50% !important;"></a>
 <a href="https://www.patreon.com/user/creators?u=25480524" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25480524/c2d5cdcac1a24903b1fdc1288788bc9b/1.jpeg?token-time=2145916800&token-hash=YOAVB6zAbLhaLbsVyEANiQdE2bHu8ErdrDMtmuskUys%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
 
 ## License & Copyright
