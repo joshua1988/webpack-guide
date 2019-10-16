@@ -1,4 +1,5 @@
 <p align="center"><a href="https://joshua1988.github.io/webpack-guide/" target="_blank" rel="noopener noreferrer"><img src="./image/intro.png" alt="Webpack Handbook Intro"></a></p>
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <p align="center"><strong>The easiest way to learn Webpack</strong></p>
 
@@ -38,3 +39,19 @@ Huge thanks for the backers who are supporting this project. If you are interest
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://lqez.github.io"><img src="https://avatars1.githubusercontent.com/u/579366?v=4" width="100px;" alt="Hyunwoo Park"/><br /><sub><b>Hyunwoo Park</b></sub></a><br /><a href="https://github.com/joshua1988/webpack-guide/commits?author=lqez" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
