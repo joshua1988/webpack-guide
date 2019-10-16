@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "joshua1988",
+      "name": "Captain Pangyo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3272748?v=4",
+      "profile": "https://joshua1988.github.io/",
+      "contributions": [
+        "code",
+        "infra",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "webpack-guide",
+  "projectOwner": "joshua1988",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
