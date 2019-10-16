@@ -1,8 +1,8 @@
-
-
 <p align="center"><a href="https://joshua1988.github.io/webpack-guide/" target="_blank" rel="noopener noreferrer"><img src="./image/intro.png" alt="Webpack Handbook Intro"></a></p>
 
 <p align="center"><strong>The easiest way to learn Webpack</strong></p>
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 # Webpack Guide
 
