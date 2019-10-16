@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "lqez",
+      "name": "Hyunwoo Park",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/579366?v=4",
+      "profile": "https://lqez.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "webpack-guide",
+  "projectOwner": "joshua1988",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
