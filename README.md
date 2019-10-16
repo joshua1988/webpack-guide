@@ -1,12 +1,12 @@
+
+
 <p align="center"><a href="https://joshua1988.github.io/webpack-guide/" target="_blank" rel="noopener noreferrer"><img src="./image/intro.png" alt="Webpack Handbook Intro"></a></p>
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <p align="center"><strong>The easiest way to learn Webpack</strong></p>
 
 # Webpack Guide
 
-This repository is for the [Webpack Handbook](https://joshua1988.github.io/
-webpack-guide/) in Korean.
+This repository is for the [Webpack Handbook](https://joshua1988.github.io/webpack-guide/) in Korean.
 
 ## Contribution to this Project
 
@@ -33,25 +33,29 @@ Huge thanks for the backers who are supporting this project. If you are interest
 <a href="https://www.patreon.com/user/creators?u=25436476" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25436476/68ca0dca23814a8ba6cbe04e39a64cfd/1.jpeg?token-time=2145916800&token-hash=1R6f94w-Lr_ejZKplxnPEn9mLg3PwGJc93EhKi6thO4%3D" style="width: 64px; height: 64px; border-radius: 50% !important;"></a>
 <a href="https://www.patreon.com/user/creators?u=25480524" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25480524/c2d5cdcac1a24903b1fdc1288788bc9b/1.jpeg?token-time=2145916800&token-hash=YOAVB6zAbLhaLbsVyEANiQdE2bHu8ErdrDMtmuskUys%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
 
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://joshua1988.github.io/"><img src="https://avatars2.githubusercontent.com/u/3272748?v=4" width="100px;" alt="Captain Pangyo"/><br /><sub><b>Captain Pangyo</b></sub></a><br /><a href="https://github.com/CaptainPangyo/webpack-guide/commits?author=joshua1988" title="Code">💻</a> <a href="https://github.com/CaptainPangyo/webpack-guide/commits?author=joshua1988" title="Documentation">📖</a> <a href="#infra-joshua1988" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://lqez.github.io"><img src="https://avatars1.githubusercontent.com/u/579366?v=4" width="100px;" alt="Hyunwoo Park"/><br /><sub><b>Hyunwoo Park</b></sub></a><br /><a href="https://github.com/CaptainPangyo/webpack-guide/commits?author=lqez" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/yunyong"><img src="https://avatars1.githubusercontent.com/u/7077013?v=4" width="100px;" alt="Yunyong Yi"/><br /><sub><b>Yunyong Yi</b></sub></a><br /><a href="https://github.com/CaptainPangyo/webpack-guide/commits?author=yunyong" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://trustyoo86.github.io"><img src="https://avatars2.githubusercontent.com/u/12755670?v=4" width="100px;" alt="kern.yoo"/><br /><sub><b>kern.yoo</b></sub></a><br /><a href="https://github.com/CaptainPangyo/webpack-guide/commits?author=trustyoo86" title="Documentation">📖</a> <a href="https://github.com/CaptainPangyo/webpack-guide/commits?author=trustyoo86" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 ## License & Copyright
 
 **Copyright © 2019 Captain Pangyo**
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
-
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://joshua1988.github.io/"><img src="https://avatars2.githubusercontent.com/u/3272748?v=4" width="100px;" alt="Captain Pangyo"/><br /><sub><b>Captain Pangyo</b></sub></a><br /><a href="https://github.com/joshua1988/webpack-guide/commits?author=joshua1988" title="Code">💻</a> <a href="#infra-joshua1988" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/joshua1988/webpack-guide/commits?author=joshua1988" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

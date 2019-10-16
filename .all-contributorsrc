@@ -1,9 +1,15 @@
 {
+  "projectName": "webpack-guide",
+  "projectOwner": "CaptainPangyo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
   "files": [
     "README.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributorsPerLine": 7,
   "contributors": [
     {
       "login": "joshua1988",
@@ -12,14 +18,37 @@
       "profile": "https://joshua1988.github.io/",
       "contributions": [
         "code",
-        "infra",
+        "doc",
+        "infra"
+      ]
+    },
+    {
+      "login": "lqez",
+      "name": "Hyunwoo Park",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/579366?v=4",
+      "profile": "https://lqez.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "yunyong",
+      "name": "Yunyong Yi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7077013?v=4",
+      "profile": "https://github.com/yunyong",
+      "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "trustyoo86",
+      "name": "kern.yoo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12755670?v=4",
+      "profile": "http://trustyoo86.github.io",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "webpack-guide",
-  "projectOwner": "joshua1988",
-  "repoType": "github",
-  "repoHost": "https://github.com"
+  ]
 }
