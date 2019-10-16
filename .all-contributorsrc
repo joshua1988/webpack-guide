@@ -7,7 +7,8 @@
     "README.md"
   ],
   "imageSize": 100,
-  "commit": true,
+  "commit": false,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
   "commitConvention": "eslint",
   "contributorsPerLine": 7,
   "contributors": [
@@ -46,8 +47,7 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/12755670?v=4",
       "profile": "http://trustyoo86.github.io",
       "contributions": [
-        "doc",
-        "code"
+        "doc"
       ]
     }
   ]
