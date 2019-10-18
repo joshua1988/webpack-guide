@@ -116,8 +116,8 @@ A@0.1.0
 
 다수의 개발자가 참여하는 프로젝트에서 package-lock.json 파일을 생성하지 말아야 할 때가 있습니다. 이러한 경우 두가지 방법으로 수정하는 방법이 존재했습니다.
 
-npm config package-lock false를 통해 package-lock을 실행하지 못하도록 하거나, npmrc에 해당 property를 추가합니다.
-git에 push를 할 때마다 package-lock.json을 삭제합니다.
+* npm config package-lock false를 통해 package-lock을 실행하지 못하도록 하거나, npmrc에 해당 property를 추가합니다.
+* git에 push를 할 때마다 package-lock.json을 삭제합니다.
 1번, 2번의 경우 소스 배포 관리자는 package-lock.json을 갱신해서 git에 push하기 위해서는 옵션을 수동으로 재설정 해줘야 하는 번거로움이 있었습니다.
 
 이러한 이슈를 수정하기 위해서 package.json 파일내 script 속성 또는 npm install 명령어에 no-package-lock 옵션을 추가하여 실행해줄 수 있도록 하여 이슈를 해결하였습니다.
