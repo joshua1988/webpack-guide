@@ -103,25 +103,24 @@ A@0.1.0
 ## 2) 잠긴 패키지 사용하기
 잠긴 패키지와 잠기지 않은 패키지는 다음 맥락에서 크게 차이가 없습니다.
 
-"`npm install`, `npm rm`, `npm update` 등의 명령어로 `node_modules` 폴더와 `package.json` 파일의 의존성을 업데이트하면
-자동으로 `package-lock.json` 파일을 업데이트 한다."
+"`npm install`, `npm rm`, `npm update` 등의 명령어로 `node_modules` 폴더와 `package.json` 파일의 의존성을 업데이트하면 자동으로 `package-lock.json` 파일을 업데이트 한다."
 
-만약 업데이트를 막으려면 `--no-save` 옵션으로 모두 저장하지 않거나, `--no-shrinkwrap` 옵션으로 `package-lock.json` 파일과
-`shrinkwrap.json` 파일을 건드리지 않고 `package.json` 파일만 업데이트 할 수 있습니다.
+만약 업데이트를 막으려면 `--no-save` 옵션으로 모두 저장하지 않거나, `--no-shrinkwrap` 옵션으로 `package-lock.json` 파일과 `shrinkwrap.json` 파일을 건드리지 않고 `package.json` 파일만 업데이트 할 수 있습니다.
 
-## 3) package-lock 관련 case study
+----
 
-프로젝트 소스 형상 관리 차원에서는 `package-lock.json` 파일을 커밋하는 걸 권고합니다. 이렇게 하면 개발자, 배포, CI 모두 `npm install` 명령어를
-실행했을때 항상 같은 의존성 구조를 가진 파일이 설치됩니다. 또한, git에 `package-lock.json` 파일의 의존성이 관리되므로 변경사항이 있는 경우 `diff`로 편하게
-변경 내용을 확인할 수 있는 이점이 생깁니다.
+## package-lock 관련 case study
 
-다수의 개발자가 진행되는 프로젝트의 경우, `npm install` 이 모든 script 실행에 선작업으로 진행되는 경우 또는 소스 배포시 `npm install`로 인해 새로운 `package-lock.json` 파일의 생성을
-방지해야 하는 경우가 있습니다.
+프로젝트 소스 형상 관리 차원에서는 `package-lock.json` 파일을 커밋하는 걸 권고합니다. 이렇게 하면 개발자, 배포, CI 모두 `npm install` 명령어를 실행했을때 항상 같은 의존성 구조를 가진 파일이 설치됩니다.
+또한, git에 `package-lock.json` 파일의 의존성이 관리되므로 변경사항이 있는 경우 `diff`로 편하게 변경 내용을 확인할 수 있는 이점이 생깁니다.
 
-* 이러한 경우 개발자들은 두가지 옵션을 사용하고 있었습니다.
-	1. npm config package-lock false를 통해 package-lock을 실행하지 못하도록 하거나, npmrc에 해당 property를 추가합니다.
-	2. git에 push를 할 때마다 package-lock.json을 삭제합니다.
-* 해당 사항을 수정하기 위해 개발모드인 경우 scripts 또는 command 실행시에 npm install에 관련되어 —no-package-lock command를 같이 추가합니다.
+다수의 개발자가 참여하는 프로젝트에서 package-lock.json 파일을 생성하지 말아야 할 때가 있습니다. 이러한 경우 두가지 방법으로 수정하는 방법이 존재했습니다.
+
+npm config package-lock false를 통해 package-lock을 실행하지 못하도록 하거나, npmrc에 해당 property를 추가합니다.
+git에 push를 할 때마다 package-lock.json을 삭제합니다.
+1번, 2번의 경우 소스 배포 관리자는 package-lock.json을 갱신해서 git에 push하기 위해서는 옵션을 수동으로 재설정 해줘야 하는 번거로움이 있었습니다.
+
+이러한 이슈를 수정하기 위해서 package.json 파일내 script 속성 또는 npm install 명령어에 no-package-lock 옵션을 추가하여 실행해줄 수 있도록 하여 이슈를 해결하였습니다.
 
 ----
 # Reference
