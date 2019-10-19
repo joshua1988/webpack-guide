@@ -32,6 +32,8 @@ Huge thanks for the backers who are supporting this project. If you are interest
 
 <a href="https://www.patreon.com/user/creators?u=25436476" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25436476/68ca0dca23814a8ba6cbe04e39a64cfd/1.jpeg?token-time=2145916800&token-hash=1R6f94w-Lr_ejZKplxnPEn9mLg3PwGJc93EhKi6thO4%3D" style="width: 64px; height: 64px; border-radius: 50% !important;"></a>
 <a href="https://www.patreon.com/user/creators?u=25480524" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25480524/c2d5cdcac1a24903b1fdc1288788bc9b/1.jpeg?token-time=2145916800&token-hash=YOAVB6zAbLhaLbsVyEANiQdE2bHu8ErdrDMtmuskUys%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
+<a href="https://www.patreon.com/user/creators?u=25754803" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25754803/c2c6dbdbc7ca4efd85c0f02a6f5701a9/1.png?token-time=2145916800&token-hash=hkvwPgcCKl0VGH-rT0zvQMMkhhdmDxnOBNy2-2SG6uA%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
+<a href="https://www.patreon.com/user/creators?u=25829043" target="_blank"><img src="https://c10.patreonusercontent.com/3/eyJ3IjoyMDB9/patreon-media/p/user/25829043/e8fe2854d7794bd0bf0138a13726dc03/1.jpeg?token-time=2145916800&token-hash=ATiphubVcDxpCIhdvvoD39ebDF3P-ut3EYd5ZqOceWo%3D" style="width: 64px; height: 64px; border-radius: 50%;"></a>
 
 ## Contributors ✨
 
