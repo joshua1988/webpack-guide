@@ -143,7 +143,7 @@ module.exports = {
       },
     },
     '@vuepress/google-analytics': {
-      ga: 'UA-148087262-2',
+      ga: 'UA-87965695-1',
     },
   },
 };
