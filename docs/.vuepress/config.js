@@ -42,6 +42,7 @@ module.exports = {
           '/build/node-npm',
           '/build/npm-module-install',
           '/build/npm-custom-commands',
+          '/build/npm-local-setting',
         ],
       },
       {
