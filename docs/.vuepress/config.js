@@ -107,7 +107,7 @@ module.exports = {
       },
       {
         text: '📹 Online Courses',
-        link: 'https://www.inflearn.com/instructors/54224/courses/?utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner',
+        link: 'https://www.inflearn.com/instructors/54224/courses/?utm_source=vuepress&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner',
       },
       {
         text: '📆 Offline Courses',
