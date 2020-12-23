@@ -14,7 +14,7 @@ title: Webpack Dev Server
 
 ```json
 "scripts": {
-  "dev": "webpack-dev-server",
+  "dev": "webpack serve",
   "build": "webpack"
 }
 ```

@@ -26,7 +26,7 @@ npm i webpack webpack-cli webpack-dev-server html-webpack-plugin -D
 {
   // ...
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack serve"
   },
 }
 ```
