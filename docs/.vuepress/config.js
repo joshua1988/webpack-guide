@@ -102,27 +102,27 @@ module.exports = {
     ],
     nav: [
       {
-        text: '📖 Guide',
+        text: '📖  가이드',
         link: '/guide',
       },
       {
-        text: '📹 Online Courses',
-        link: 'https://www.inflearn.com/instructors/54224/courses/?utm_source=vuepress&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner',
+        text: '📹  온라인 강의',
+        link: 'https://www.inflearn.com/course/프런트엔드-웹팩?inst=747606f7&utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner',
       },
       {
-        text: '📆 Offline Courses',
+        text: '📆  오프라인 강의',
         link: 'https://www.fastcampus.co.kr/dev_camp_vue/',
       },
       {
-        text: '💵 Support Project',
+        text: '💵  프로젝트 후원',
         link: 'https://www.patreon.com/captainpangyo',
       },
       {
-        text: '💻 Github',
+        text: '💻  깃헙',
         link: 'https://github.com/joshua1988/webpack-guide',
       },
       {
-        text: '📝 More Articles',
+        text: '📝  더 많은 글 보기',
         link: 'https://joshua1988.github.io/',
       },
     ],
