@@ -28,3 +28,40 @@ title: Webpack Dev Server
 :::
 
 위 설명이 잘 이해가 안 간다면 [튜토리얼](/tutorials/webpack-dev-server.html)을 직접 해보면서 확인해보세요.
+
+## 프록시(Proxy) 설정
+
+프록시 설정은 실무에서 가장 흔하게 사용하는 속성입니다. 아래와 같이 선언합니다.
+
+```js
+// webpack.config.js
+module.exports = {
+  devServer: {
+    proxy: {
+      '/api': 'http://localhost:3000'
+    }
+  }
+};
+```
+
+위와 같이 설정하고 나면 로컬 웹팩 데브 서버에서 발생하는 API 요청에 변화가 생깁니다. 그림으로 살펴보겠습니다. 먼저 프록시를 쓰지 않았을 때의 기본적인 웹팩 데브 서버와 API 서버의 통신 구조입니다.
+
+![웹팩 도식](../.vuepress/public/images/cors-error.png)
+
+여기서 [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)라는 용어가 나옵니다. 이 용어는 브라우저 보안과 관계가 있는데요. 쉽게 얘기하면 다른 도메인 간에는 자바스크립트로 자원을 요청할 수 없다는 의미입니다. 위 그림에서도 서버에 로그인 관련 API 요청을 했는데 CORS 오류가 나는 걸 볼 수 있습니다.
+
+뷰, 리액트와 같은 프런트엔드 프레임워크를 쓰면 개발 편의상 로컬에 웹팩 데브 서버를 띄워놓고 개발하는 경우가 많습니다. 이 때, 이러한 문제를 해결하기 위해서 아래와 같이 프록시 속성을 설정하면 서버에서 해당 요청을 받아줍니다.
+
+```js
+module.exports = {
+  devServer: {
+    proxy: {
+      '/api': 'domain.com'
+    }
+  }
+};
+```
+
+![웹팩 도식](../.vuepress/public/images/proxy.png)
+
+CORS가 브라우저 보안과 관련있기 때문에 브라우저에서 벗어나 서버에서 서버로 요청합니다. 실제로 브라우저에서는 `localhost:8080/api/login` 으로 요청했지만 중간에 프록시 서버의 활약으로 `domain.com` 서버에서는 같은 도메인(domain.com)에서 온 요청으로 인식하여 CORS 에러가 나지 않습니다.
