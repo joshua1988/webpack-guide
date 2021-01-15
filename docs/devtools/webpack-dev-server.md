@@ -65,3 +65,20 @@ module.exports = {
 ![웹팩 도식](../.vuepress/public/images/proxy.png)
 
 CORS가 브라우저 보안과 관련있기 때문에 브라우저에서 벗어나 서버에서 서버로 요청합니다. 실제로 브라우저에서는 `localhost:8080/api/login` 으로 요청했지만 중간에 프록시 서버의 활약으로 `domain.com` 서버에서는 같은 도메인(domain.com)에서 온 요청으로 인식하여 CORS 에러가 나지 않습니다.
+
+:::danger
+위 프록시 설정은 최대한 간단히 설명하기 위해 옵션을 하나 뺐습니다. 위와 같이 도메인 이름이 IP 주소가 아니라 가상 이름(domain.com)으로 되어 있는 경우 아래 옵션을 추가해 주셔야 합니다.
+
+```js
+module.exports = {
+  devServer: {
+    proxy: {
+      '/api': {
+        target: 'domain.com',
+        changeOrigin: true
+      }
+    }
+  }
+};
+```
+:::
