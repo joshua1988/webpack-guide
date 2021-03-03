@@ -110,9 +110,9 @@ module.exports = {
         link: 'https://www.inflearn.com/course/프런트엔드-웹팩?inst=747606f7&utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner',
       },
       {
-        text: '📆  오프라인 강의',
-        link: 'https://www.fastcampus.co.kr/dev_camp_vue/',
-      },
+				text: '📆  직접 물어보기',
+				link: 'https://www.youtube.com/watch?v=fL39Yg2H0ig',
+			},
       {
         text: '💵  프로젝트 후원',
         link: 'https://www.patreon.com/captainpangyo',
