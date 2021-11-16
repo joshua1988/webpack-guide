@@ -54,8 +54,8 @@ module.exports = (env) => {
 // package.json
 {
   "build": "webpack",
-  "development": "npm run build -- --env.mode=development",
-  "production": "npm run build -- --env.mode=production"
+  "development": "npm run build --env mode=development",
+  "production": "npm run build --env mode=production"
 }
 ```
 
@@ -78,7 +78,7 @@ webpack --env.a=10
 
 ```json
 {
-  "build": "webpack --env.a=10"
+  "build": "webpack --env a=10"
 }
 ```
 
