@@ -115,7 +115,7 @@ module.exports = {
 			},
       {
         text: '💵  프로젝트 후원',
-        link: 'https://www.patreon.com/captainpangyo',
+        link: 'https://github.com/sponsors/joshua1988',
       },
       {
         text: '💻  깃헙',

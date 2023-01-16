@@ -50,3 +50,9 @@ export { sum, substract, pi }
 :::tip
 빌드, 번들링, 변환 이 세 단어 모두 같은 의미입니다.
 :::
+
+## 온라인 강의로 쉽게 배우기
+
+글보다 영상으로 쉽고 재밌게 배워보고 싶다면 아래 온라인 강의를 수강해 보세요 :)
+
+[![webpack-online-course](../.vuepress/public/images/webpack-course.png)](https://inf.run/3Kxv)
