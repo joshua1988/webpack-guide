@@ -106,6 +106,10 @@ module.exports = {
         link: '/guide',
       },
       {
+        text: '🎁 타입스크립트 신규 도서 출간',
+        link: 'https://www.yes24.com/Product/Goods/119410497'
+      },
+      {
         text: '📹  온라인 강의',
         link: 'https://www.inflearn.com/course/프런트엔드-웹팩?inst=747606f7&utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner',
       },
@@ -113,14 +117,14 @@ module.exports = {
 				text: '📆  직접 물어보기',
 				link: 'https://www.youtube.com/watch?v=fL39Yg2H0ig',
 			},
-      {
-        text: '💵  프로젝트 후원',
-        link: 'https://github.com/sponsors/joshua1988',
-      },
-      {
-        text: '💻  깃헙',
-        link: 'https://github.com/joshua1988/webpack-guide',
-      },
+      // {
+      //   text: '💵  프로젝트 후원',
+      //   link: 'https://github.com/sponsors/joshua1988',
+      // },
+      // {
+      //   text: '💻  깃헙',
+      //   link: 'https://github.com/joshua1988/webpack-guide',
+      // },
       {
         text: '📝  더 많은 글 보기',
         link: 'https://joshua1988.github.io/',
