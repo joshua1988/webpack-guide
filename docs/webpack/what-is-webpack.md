@@ -56,3 +56,18 @@ export { sum, substract, pi }
 글보다 영상으로 쉽고 재밌게 배워보고 싶다면 아래 온라인 강의를 수강해 보세요 :)
 
 [![webpack-online-course](../.vuepress/public/images/webpack-course.png)](https://inf.run/3Kxv)
+
+## 프런트엔드 개발 레벨업을 도와주는 타입스크립트 도서 소개 🎁
+
+2년간 열심히 집필한 책이 출간되었습니다. 프런트엔드 개발 역량을 한단계 더 높여줄 수 있을 거예요. <br>
+이 한 권이면 실무에서 타입스크립트를 쓰는게 하나도 두렵지 않을 겁니다 :)
+[https://www.yes24.com/Product/Goods/119410497](https://www.yes24.com/Product/Goods/119410497)
+
+<a href="https://www.yes24.com/Product/Goods/119410497" target="_blank">
+  <img width="400px" src="./ts-book-cover.png">
+</a>
+
+도서 구매 인증 이벤트가 <strong>6/25(일)</strong>까지 제 유튜브 채널에서 진행되고 있습니다. 자세한 내용은 아래 링크를 참고하세요.
+[https://www.youtube.com/@captainpangyo/community](https://www.youtube.com/@captainpangyo/community)
+
+많이들 참여하시고 커피 쿠폰 받아가세요~ 😄
