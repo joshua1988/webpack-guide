@@ -106,8 +106,8 @@ module.exports = {
         link: '/guide',
       },
       {
-        text: '🎁 타입스크립트 신규 도서 출간',
-        link: 'https://www.yes24.com/Product/Goods/119410497'
+        text: '👥 카카오톡 오픈 채팅방',
+        link: 'https://open.kakao.com/o/ghib5Brf'
       },
       {
         text: '📹  온라인 강의',
