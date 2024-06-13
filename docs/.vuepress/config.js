@@ -106,12 +106,12 @@ module.exports = {
         link: '/guide',
       },
       {
-        text: '👥 카카오톡 오픈 채팅방',
-        link: 'https://open.kakao.com/o/ghib5Brf'
+        text: '📹  프론트엔드 개발 강의 학습 로드맵',
+        link: 'https://www.inflearn.com/users/54224/roadmaps',
       },
       {
-        text: '📹  온라인 강의',
-        link: 'https://www.inflearn.com/course/프런트엔드-웹팩?inst=747606f7&utm_source=blog&utm_medium=githubio&utm_campaign=captianpangyo&utm_term=banner',
+        text: '👥 카카오톡 오픈 채팅방',
+        link: 'https://open.kakao.com/o/ghib5Brf'
       },
       {
 				text: '📆  직접 물어보기',
